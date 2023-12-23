@@ -1,0 +1,76 @@
+/*Misc*/
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*Code in fact*/
+
+:root {
+    --cinzinha: hsl(212, 45%, 89%);
+    --azul_cinzinha: hsl(220, 15%, 55%);
+    --azul_marinho: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+#campo {
+    align-self: center;
+    max-width: 100vw;
+    height: 97.3vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinzinha);
+}
+
+div.card {
+    border-radius: 30px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    background-color: white;
+}
+
+div.imagem {
+    margin: 15px 5px;
+}
+
+.imagem img {
+    border-radius: 15px;
+    width: 320px;
+}
+
+.texto {
+    text-align: center;
+    width: 310px;
+}
+
+.texto h2 {
+    color: var(--azul_marinho);
+    font-weight: 700;
+    font-size: 25px;
+    margin: 15px 5px;
+}
+
+.texto p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6em;
+    color: var(--azul_cinzinha);
+    margin: 15px 5px;
+}
+
+footer {    
+    background-color: var(--azul_marinho);
+    color: var(--azul_cinzinha);
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+}
